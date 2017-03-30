@@ -1,0 +1,14 @@
+.banner {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  h1 {
+    text-align: center;
+    color: $blue;
+  }
+  img {
+    max-width: 200px;
+  }
+}
