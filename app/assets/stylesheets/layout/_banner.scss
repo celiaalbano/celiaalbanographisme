@@ -4,11 +4,15 @@
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  h1 {
-    text-align: center;
+  li {
+    padding-left: 50px;
+  }
+  li h1 {
     color: $blue;
+    padding-top: 50px;
   }
   img {
     max-width: 200px;
   }
 }
+
