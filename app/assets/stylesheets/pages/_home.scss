@@ -3,10 +3,19 @@
  * (margin/padding adjustments)
  * ------------------------------------- */
 
-.padded {
-  padding : 150px;
+
+.icones-wrapper {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icones {
-  padding-left: 70px;
+  h2{
+    font-family: cooper hewitt;
+  }
+  img{
+    max-width: 120px;
+  }
 }

@@ -1,34 +1,56 @@
+<!-- bannière -->
+
+<div id="scene" class="scene">
+  <ul>
+    <li class="layer" data-depth="0.5">
+      <img src="http://res.cloudinary.com/dusxpvpz7/image/upload/v1492784961/ellipses-px-1_x0zbvc.png">
+    </li>
+    <li class="layer" data-depth="1">
+      <img src="http://res.cloudinary.com/dusxpvpz7/image/upload/v1492784962/ellipses-px-2_q7nn53.png">
+    </li>
+    <li class="layer" data-depth="1.5">
+      <img src="http://res.cloudinary.com/dusxpvpz7/image/upload/v1492784962/ellipses-px-3_ycovco.png">
+    </li>
+  </ul>
+</div>
+
+  <script type="text/javascript" src="deploy/parallax.js"></script>
+    <script>
+      var scene = document.getElementById("scene");
+      var parallax = new Parallax(scene);
+    </script>
+
 <div class="banner" style="background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1490866473/Banniere_web2_m19v5o.jpg');">
   <div class="container">
     <div class="banner-content">
-      <ul class="list-inline">
-        <li>
-          <img src="http://res.cloudinary.com/dusxpvpz7/image/upload/v1490695839/logo_w4whbz.png" alt="logo">
-        </li>
-        <li>
-          <h1 class="text-left">REGARDER<br/>
-          S'INSPIRER<br/>
-          CREER</h1>
-        </li>
-      </ul>
+      <div class="logo">
+        <img src="http://res.cloudinary.com/dusxpvpz7/image/upload/v1490695839/logo_w4whbz.png" alt="logo">
+      </div>
+      <div class=slogan>
+        <h1 class="text-left">REGARDER<br/>
+        S'INSPIRER<br/>
+        CREER</h1>
+      </div>
     </div>
   </div>
 </div>
 
+<!-- icones wrapper -->
+
 <div class="text-center padded">
-  <div class=container>
+  <div class="container icones-wrapper">
     <div class=row>
-      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icones">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 icones">
           <img src="http://res.cloudinary.com/dusxpvpz7/image/upload/v1490695838/icone-idee_fope2y.png" alt="idea icon">
             <h2>Des idées</h2>
             <p>Vous accompagner dans votre stratégie de communication</p>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icones">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 icones">
           <img src="http://res.cloudinary.com/dusxpvpz7/image/upload/v1490695838/icone-dessin_dmzllm.png" alt="pen icon">
           <h2>De la technique</h2>
           <p>Mettre tout en oeuvre pour vous fournir des documents de communication à votre image</p>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icones">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 icones">
           <img src="http://res.cloudinary.com/dusxpvpz7/image/upload/v1490695838/icone-web_bpghlk.png" alt="computer icon">
           <h2>Du web</h2>
           <p>Développer votre site web et votre présence sur le net</p>
@@ -37,3 +59,12 @@
   </div>
 </div>
 
+
+<!-- exemple de projets -->
+
+
+<!-- footer -->
+
+<div class="footer-wrapper">
+  <p class="text-center">copyright Celia Albano Graphisme 2017</p>
+</div>
