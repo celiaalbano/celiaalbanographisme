@@ -1,0 +1,43 @@
+projects:
+  soretec:
+    name: Soretec
+    work1: Refonte du logo
+    picture1: logo.png
+    work2: Carte de visite
+    picture2: cdv-soretec.jpg
+    work3: Retouches photo et Mise en page
+    picture3: couv-alouette.jpg
+  archil:
+    name: Archi'l
+    work1: Création du logo
+    picture1: logo-archil.jpg
+    work2: Carte de visite
+    picture2: cdv-archil.jpg
+  philippe:
+    name: Ferme Philippe Compiègne
+    work1: Création d'une identité visuelle
+    picture1: logo-philippe.jpg
+    work2: Création d'étiquettes
+    picture2: coeur.jpg
+  ose:
+    name: OSE
+    work1: Création du logo
+    picture1: logo-ose.jpg
+    work2: Carte de visite
+    picture2: cdv-ose.jpg
+  dmum:
+    name: Dessine Moi Un Mouton
+    work1: Kakémono
+    picture1: kaké-dmum.jpg
+    work2: Mise en page
+    picture2: livret-dmum.jpg
+    work3: Poster
+    picture3: poster-dmum.jpg
+  equiperle:
+    name: Equiperle
+    work1: Création du logo
+    picture1: logo-equiperle.jpg
+    work2: Carte de visite
+    picture2: cdv-equiperle.jpg
+    work3: Plaquette
+    picture3: plaquette-equiperle.jpg

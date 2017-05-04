@@ -1,5 +1,32 @@
 // Your footer style
+.footer {
+  clear: both;
+  width: 100%;
+  bottom: 0;
+}
+
 .footer-wrapper {
-  height: 100px;
+  height: 150px;
+  padding-top: 30px;
+  // display: flex;
+  // align-content: center;
+  // justify-content: center;
   background-color: $green;
+  p {
+    color: white;
+    // padding-top: 120px;
+    font-size: 12px;
+    margin: 0;
+  }
+}
+
+.fa {
+  color: white;
+  transition: all 0.5s ease;
+  padding-right: 10px;
+  margin-bottom: 30px;
+}
+
+.fa:hover {
+  color: $yellow;
 }
