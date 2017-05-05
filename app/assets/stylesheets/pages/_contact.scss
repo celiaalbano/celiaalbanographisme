@@ -1,0 +1,29 @@
+.contact-wrapper {
+  min-height: 500px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("http://res.cloudinary.com/dusxpvpz7/image/upload/v1492784961/ellipses-px-1_x0zbvc.png");
+}
+
+.question {
+  h2{
+    font-family: $base-font;
+    color: $blue;
+    margin-bottom: 50px;
+  }
+}
+
+.contact-info {
+  h3, h4 {
+    color: $green;
+  }
+}
+
+.adress {
+  padding-top: 50px;
+  p {
+    color: $blue;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+}

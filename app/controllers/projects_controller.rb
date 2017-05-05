@@ -15,6 +15,7 @@ class ProjectsController < ApplicationController
   end
 
   def soretec
+    @projects = Project.where(name: 'soretec')
   end
 
   def set_list
