@@ -1,0 +1,134 @@
+.no-padding {
+  padding: 0;
+}
+
+.photo-card {
+  height: 350px;
+  background-color: $green;
+  margin: 5px;
+}
+
+.photo-card-portrait {
+  height: 700px;
+  background-color: $yellow;
+  margin: 5px;
+}
+
+.work-description {
+  background-color: $blue;
+  height: 350px;
+  margin: 5px;
+  padding: 40px;
+  h2 {
+    margin: 0;
+    color: white;
+    padding-bottom: 30px;
+    font-size: 26px;
+  }
+  h4 {
+    margin:0;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  p{
+    margin: 0;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+}
+
+#jersey-noir-ose {
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494076829/ose-flock-noir_q10lfp.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#ose-cdv{
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494076818/ose-cartes_k05pjr.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#logo-ose {
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494076806/ose-logo_cz20zm.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#jersey-bleu-ose{
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494076834/ose-flock-bleu_rw4zcq.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#soretec-cdv {
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494083425/soretec-cdv_xq3gvm.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#soretec-paper {
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494083402/soretec-paper_tllahm.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#soretec-dessin {
+  background: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494083420/soretec-dessin-bleu_k2p48u.jpg') no-repeat center fixed;
+  // background-repeat: no-repeat;
+  // background-position: center center;
+  background-size: cover;
+}
+
+#cdv-archil {
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494084617/cdv-archil_todqza.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#logo-archil {
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494084615/logo-archil_kfa68g.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#logo-fermepc {
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494085262/LOGO_FINAL_a8gdul.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: white;
+  background-size: 70%;
+}
+
+#glinglin-fermepc {
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494085262/Val_St_Glinglin_pcbs01.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: white;
+  background-size: 95%
+}
+
+#coeur-fermepc {
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494085275/Coeur_FINALE_sbjdcq.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 120%;
+}
+
+#fromages {
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494085267/fromages_ofe7fi.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+

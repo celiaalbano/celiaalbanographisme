@@ -75,12 +75,13 @@
 .project-wrapper {
   // height: 800px;
   // background-color: $blue;
-  padding: 40px;
+  padding-bottom: 200px;
 }
 
 
 .card {
   height: 300px;
+  margin: auto;
   // position: relative;
 }
 
@@ -89,24 +90,38 @@
   transition: all 0.8s ease;
 }
 
-.project1 {
+.soretec {
   background-color: #0a90c9;
   background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1493223202/logo-blanc_zikxvo.png');
   background-repeat: no-repeat;
   background-position: center center;
+  // margin: 5px;
 }
 
-.project2{
+.archil{
   background-color: #e71d71;
   background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1493224168/logo-archil-sans-fond_oczpe0.png');
   background-repeat: no-repeat;
   background-position: center center;
+  // margin: 5px;
 }
 
-.project3 {
-  background-color: $yellow;
+.ose {
+  background-color: black;
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494078045/ose-logo-trans_y1jtgb.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  // margin: 5px;
 }
 
-.project4 {
+.dmum {
   background-color: $green;
+  // margin: 5px;
 }
+
+.fermepc {
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494085262/LOGO_FINAL_a8gdul.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
