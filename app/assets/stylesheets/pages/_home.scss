@@ -115,7 +115,10 @@
 }
 
 .dmum {
-  background-color: $green;
+  background-color: #eff5ff;
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494542468/dmum-logo-trans_imxnll.png');
+  background-repeat: no-repeat;
+  background-position: center center;
   // margin: 5px;
 }
 
@@ -125,3 +128,9 @@
   background-position: center center;
 }
 
+.pelemele {
+  background-image: url("http://res.cloudinary.com/dusxpvpz7/image/upload/v1494542669/couv-ag_o5e3tz.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
