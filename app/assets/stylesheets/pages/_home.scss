@@ -2,17 +2,47 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+.no-padding {
+    padding-right:0;
+    padding-left:0;
+}
 
+.blue-col-1 {
+  background-color: $blue;
+  min-height: 700px;
+  overflow: scroll;
+}
 
-.citation-wrapper {
-  padding-top: 200px;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
+.blue-col {
+  background-color: $blue;
+  min-height: 500px;
+  overflow: scroll;
+}
+
+.green-col {
+  background-color: $green;
+  height: 700px;
+}
+
+.white-col {
+  background-color: white;
+  min-height: 500px;
+}
+
+.white-col-1 {
+  background-color: white;
+  height: 700px;
+  overflow: scroll;
+}
+
+.project-col {
+  height: 700px;
+  overflow: scroll;
 }
 
 .presentation{
-  padding-bottom: 150px;
+  padding-top: 0px;
+  padding-bottom: 70px;
   padding-left: 50px;
   display: block;
   width: 450px;
@@ -21,12 +51,13 @@
   h1 {
     font-family: $base-font;
     font-weight: 300;
-    color: $blue;
+    color: $yellow;
   }
   h3 {
     font-family: open sans;
     color: $yellow;
     margin: 0;
+    font-weight: 300;
   }
 }
 
@@ -34,30 +65,55 @@
   color: $green;
   font-size: 75px;
   font-family: $header-font;
-  font-weight: bold;
+  font-weight: 500;
 }
 
-.citation {
-  text-align: left;
-  h2 {
+// .citation {
+//   text-align: left;
+//   h2 {
+//     font-family: $header-font;
+//     font-style: italic;
+//     margin: 0;
+//     color: $green;
+//   }
+//   p {
+//     font-family: $base-font;
+//     color: $blue;
+//   }
+// }
+
+.services {
+  padding-bottom: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+  h1 {
+    font-size: 18px;
     font-family: $header-font;
-    font-style: italic;
-    margin: 0;
-    color: $green;
-  }
-  p {
-    font-family: $base-font;
     color: $blue;
+    text-align: justify;
   }
+}
+
+.icon-padding {
+  padding-top: 80px;
 }
 
 .icon {
-  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // height: 100px;
+  // position: relative;
   img {
     width: 100px;
     transition-property: transform;
     transition-duration: 1s;
     transition-timing-function: ease;
+    position: absolute;
+    left: 0;
+    bottom: 100;
   }
 }
 
@@ -65,17 +121,39 @@
   transform: translateX(100px);
 }
 
+.sweep-icon {
+  height: 100px;
+  margin-left: 50px;
+}
+
+.sweep-text {
+  color: $green;
+  padding-right: 0;
+  margin-left: 50px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.sweep-text .stressedout {
+  color: $blue;
+  font-size: 18px;
+  // font-weight: semibold;
+}
+
+
 .tour-bulle {
-    padding-bottom: 50px;
-  h3 {
-    color:$green;
+    padding-top: 200px;
+  h2 {
+    color: white;
     font-family: $header-font;
+    font-size: 20px;
+    font-weight: 300;
   }
 }
 .project-wrapper {
   // height: 800px;
   // background-color: $blue;
-  padding-bottom: 200px;
+  // padding-bottom: 200px;
 }
 
 
@@ -85,51 +163,100 @@
   // position: relative;
 }
 
-.card:hover {
-  opacity: 0.5;
-  transition: all 0.8s ease;
+.card:hover .overlay-yellow {
+  opacity: 0.9;
+}
+
+.overlay-yellow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: $yellow;
+}
+
+.contact {
+  h2 {
+    color: white;
+    font-family: $header-font;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 0;
+  }
+}
+
+.contact-info {
+  h3, h4 {
+    color: $green;
+    font-weight: 400;
+  }
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 18px;
+  }
 }
 
 .soretec {
-  background-color: #0a90c9;
-  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1493223202/logo-blanc_zikxvo.png');
+  // background-color: #0a90c9;
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1499786472/Soretec-fondphoto_xhanuq.jpg');
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: 100%;
   // margin: 5px;
 }
 
 .archil{
-  background-color: #e71d71;
-  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1493224168/logo-archil-sans-fond_oczpe0.png');
+  // background-color: #e71d71;
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1499786552/archil-enscene_l0tstc.jpg');
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: 100%;
   // margin: 5px;
 }
 
 .ose {
-  background-color: black;
-  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494078045/ose-logo-trans_y1jtgb.png');
+  // background-color: black;
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1499786507/ose-enscene_kezjhn.jpg');
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: 100%;
   // margin: 5px;
 }
 
 .dmum {
-  background-color: #eff5ff;
-  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494542468/dmum-logo-trans_imxnll.png');
+  // background-color: #eff5ff;
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1499788925/dmum-enscene_gnujv3.jpg');
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: 100%;
   // margin: 5px;
 }
 
 .fermepc {
-  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1494085262/LOGO_FINAL_a8gdul.jpg');
+  background-image: url('http://res.cloudinary.com/dusxpvpz7/image/upload/v1499787200/fermepc-enscene_ytdjrw.jpg');
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: 100%;
 }
 
 .pelemele {
-  background-image: url("http://res.cloudinary.com/dusxpvpz7/image/upload/v1494542669/couv-ag_o5e3tz.jpg");
+  background-image: url("http://res.cloudinary.com/dusxpvpz7/image/upload/v1501489891/pelemele-enscene_ndypm1.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

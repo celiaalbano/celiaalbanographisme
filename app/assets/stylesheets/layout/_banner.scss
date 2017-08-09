@@ -1,18 +1,31 @@
 .plan1{
-  height: 100vh;
-  padding-top: 80px;
+  // height: 100vh;
+  // padding-top: 80px;
 }
 
 .plan2{
-  height: 100vh;
-  padding-top: 80px;
-  overflow: hidden;
+  // height: 100vh;
+  // padding-top: 80px;
 }
 
 .plan3{
-  height: 100vh;
-  padding-top: 80px;
-  overflow: hidden;
+  // height: 100vh;
+  // padding-top: 80px;
+}
+
+.icone1 {
+  padding-top: 50px;
+  padding-left: 500px;
+}
+
+.icone2 {
+  padding-top: 250px;
+  padding-left: 600px;
+}
+
+.icone3 {
+  padding-top: 450px;
+  padding-left: 700px;
 }
 
 .portrait {
@@ -26,12 +39,12 @@
   overflow: hidden;
 }
 
-.banner-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
+// .banner-content {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 100vh;
+// }
 
 .logo img {
   max-width: 200px;
