@@ -26,7 +26,11 @@
 
 .white-col {
   background-color: white;
-  min-height: 500px;
+  // background-image: url('images/bulle-1.png');
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 
 .white-col-1 {
@@ -38,6 +42,17 @@
 .project-col {
   height: 700px;
   overflow: scroll;
+}
+
+.nav-link-page {
+  color: white;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.nav-link-page:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .presentation{
@@ -68,19 +83,6 @@
   font-weight: 500;
 }
 
-// .citation {
-//   text-align: left;
-//   h2 {
-//     font-family: $header-font;
-//     font-style: italic;
-//     margin: 0;
-//     color: $green;
-//   }
-//   p {
-//     font-family: $base-font;
-//     color: $blue;
-//   }
-// }
 
 .services {
   padding-bottom: 70px;
@@ -181,6 +183,7 @@
 }
 
 .contact {
+  margin-top: 100px;
   h2 {
     color: white;
     font-family: $header-font;
@@ -191,6 +194,7 @@
 }
 
 .contact-info {
+  padding-top: 150px;
   h3, h4 {
     color: $green;
     font-weight: 400;
@@ -210,6 +214,135 @@
   p {
     font-size: 18px;
   }
+}
+
+.bubbles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.bubbles li {
+  position: absolute;
+  list-style: none;
+  display: block;
+  bottom: -250px;
+  -webkit-animation: square 20s infinite;
+  animation: square 20s infinite;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+.bubbles li:nth-child(1) {
+  width: 40px;
+  height: 40px;
+  left: 20%;
+  border-radius: 50%;
+  background-color: $yellow;
+}
+
+.bubbles li:nth-child(2) {
+  width: 60px;
+  height: 60px;
+  left: 40%;
+  border-radius: 50%;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-duration: 17s;
+  animation-duration: 17s;
+  background-color: $green;
+}
+
+.bubbles li:nth-child(3) {
+  width: 10px;
+  height: 10px;
+  left: 46%;
+  border-radius: 50%;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-duration: 13s;
+  animation-duration: 13s;
+  background-color: $blue;
+}
+
+.bubbles li:nth-child(4) {
+  width: 25px;
+  height: 25px;
+  left: 80%;
+  border-radius: 50%;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  background-color:$yellow;
+}
+
+.bubbles li:nth-child(5) {
+  width: 15px;
+  height: 15px;
+  left: 10%;
+  border-radius: 50%;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  -webkit-animation-duration: 15s;
+  animation-duration: 15s;
+  background-color: $blue;
+}
+
+.bubbles li:nth-child(6) {
+  width: 35px;
+  height: 35px;
+  left: 75%;
+  border-radius: 50%;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  -webkit-animation-duration: 8s;
+  animation-duration: 8s;
+  background-color: $green;
+}
+
+.bubbles li:nth-child(7) {
+  width: 55px;
+  height: 55px;
+  left: 65%;
+  border-radius: 50%;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-duration: 15s;
+  animation-duration: 15s;
+  background-color: $yellow;
+}
+
+@-webkit-keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-600px);
+    transform: translateY(-600px);
+  }
+}
+
+@keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-600px);
+    transform: translateY(-600px);
+  }
+}
+
+#top-head {
+  position: absolute;
+  top: 240px;
 }
 
 .soretec {
