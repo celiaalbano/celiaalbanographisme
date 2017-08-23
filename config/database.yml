@@ -18,7 +18,7 @@ development:
   encoding: unicode
   database: f3_development
   pool: 5
-  username: celiaalbano
+  username: postgres
   password:
   host: localhost
   port: 5432
@@ -29,7 +29,7 @@ test:
   encoding: unicode
   database: f3_test
   pool: 5
-  username: celiaalbano
+  username: postgres
   password:
   host: localhost
   port: 5432
@@ -40,10 +40,10 @@ production:
   encoding: unicode
   database: f3_production
   pool: 5
-  username: celiaalbano
+  username: postgres
   password:
   host: localhost
-  port: 5432
+
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
